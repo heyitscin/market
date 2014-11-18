@@ -11,19 +11,19 @@ Product.create!(title: 'Babe Ruth 1933',
 	description:
 	%{<p>1933 George Herman (Babe) Ruth No 181 Goudey Gum Trading Card},
 	image_url: 'baberuth.jpg',
-	price: 6.50)
+	price: 126.50)
 #...
 Product.create!(title: 'Jackie Robinson 1953',
 	description:
 	%{<p>1953 Jackie Robinson Brooklyn Dodgers Topps No 1},
 	image_url: 'jackierobinson.jpg',
-	price: 6.50)
+	price: 296.00)
 #...
 Product.create!(title: 'Lou Gehrig 1961',
 	description:
 	%{<p>1961 Lou Gehrig New York Yankees Topps No 405},
 	image_url: 'lougehrig.jpg',
-	price: 6.50)
+	price: 76.50)
 #...
 Product.create!(title: 'Mickey Mantle 1963',
 	description:
@@ -35,5 +35,5 @@ Product.create!(title: 'Sandy Koufax 1963',
 	description:
 	%{<p>1963 Sandy Koufax Los Angeles Dodgers Topps No 210},
 	image_url: 'sandykoufax.jpg',
-	price: 6.50)
+	price: 106.50)
 #...

@@ -26,7 +26,8 @@ class ProductTest < ActiveSupport::TestCase
   		product.errors[:price]
 
   	product.price = 1
-  	assert product.invalid?
+  	assert product.valid?
+
   end
 
 
