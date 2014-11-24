@@ -8,7 +8,7 @@
 		padding-bottom:0.5em;
 		font:150% sans-serif;
 		color:#226;
-		border-bottom:3px dotted #77d; /*borders always have three parts: how wide, what style, what color*/
+		border-bottom:3px dotted #77d; /*borders (usually) always have three parts: how wide, what style, what color when they don't have a color they inherit a color of the text*/
 	}
 
 	.entry {
@@ -23,6 +23,7 @@
 			margin-bottom: 5px;
 			position: absolute;
 		}
+
 		h3{
 			font-size: 120%;
 			font-family: sans-serif;
@@ -31,11 +32,17 @@
 			margin-bottom: 2px;
 			color: #227;
 		}
+
 		p, div.price_line{
 			margin-left: 100px;
 			margin-top: 0.5em;
 			margin-bottom: 0.8em;
+
+			form, div {
+				display: inline;
+			}
 		}
+
 		.price{
 			color: #44a;
 			font-weight: bold;
